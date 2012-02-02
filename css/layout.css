@@ -1,0 +1,74 @@
+#books-widget {
+    font-family: 'Tahoma';
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 30px;
+    position: fixed;
+    top: 0%;
+    width: 400px;
+}
+
+
+/* #add-book */
+
+#books-widget #add-book {
+    border: 2px solid #0066A8;
+    width: 100%;
+}
+
+#books-widget #add-book div {
+    margin: 5px;
+    height: 23px;
+}
+
+#books-widget #add-book div input {
+    float:right;
+    width: 250px;
+    margin-right: 15px;
+}
+
+#books-widget #add-book div .error {
+    background-color: red;
+}
+
+#books-widget #add-book div span {
+    display:block;
+    float:left;
+    margin-left: 15px;
+    padding-top: 2px;
+}
+
+
+/* #encyclopedia */
+
+#books-widget #encyclopedia {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#books-widget #encyclopedia li {
+    padding: 5px;
+    clear:both;
+    margin-top: 10px;
+}
+
+#books-widget #encyclopedia span {
+    display: block;
+    float:left;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#books-widget #encyclopedia span.date {
+    float:right;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+#books-widget #encyclopedia span.count {
+    float:right;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
