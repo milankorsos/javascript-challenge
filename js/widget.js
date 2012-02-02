@@ -214,7 +214,8 @@ function AppView() {
     this.booksView.renderBooks(this.books.get());
 
     // place event handler on the submit button
-    this.formView.submitBtn.onclick = function(){
+    this.formView.submitBtn.onclick = function(e){
+        e.preventDefault();
         var valid = self.formView.validateForm();
         if (valid) {
             self.formView.submitForm();
@@ -223,7 +224,8 @@ function AppView() {
     };
 
     // place event handler on the a tag
-    this.formView.moreLink.onclick = function(){
+    this.formView.moreLink.onclick = function(e){
+        e.preventDefault();
         self.formView.showMore();
     };
 }
